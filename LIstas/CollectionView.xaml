@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Listas.CollectionView"
+             Title="CollectionView">
+    <ScrollView>
+        <StackLayout>
+            <Label Text="CollectionView"
+               FontSize="50"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" />
+
+            <CollectionView ItemsSource="{Binding personas}"
+                        ItemsLayout="VerticalGrid, 2">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="35" />
+                                <RowDefinition Height="35" />
+
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="60" />
+                                <ColumnDefinition Width="80" />
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.RowSpan="2" 
+                               Source="{Binding ImagenFavorita}" 
+                               Aspect="AspectFill"
+                               HeightRequest="60" 
+                               WidthRequest="60" />
+                            <Label Grid.Column="1" 
+                               Text="{Binding Nombre}" 
+                               FontAttributes="Bold"
+                               LineBreakMode="TailTruncation" />
+                            <Label Grid.Row="1"
+                               Grid.Column="1" 
+                               Text="{Binding FechaNacimiento}"
+                               LineBreakMode="TailTruncation"
+                               FontAttributes="Italic" 
+                               VerticalOptions="End" />
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

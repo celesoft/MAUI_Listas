@@ -1,0 +1,70 @@
+is_global = true
+build_property.TargetFramework = net6.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LIstas
+build_property.ProjectDir = C:\git\maui\MAUI_Listas\LIstas\
+
+[C:/git/maui/MAUI_Listas/LIstas/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LIstas.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/git/maui/MAUI_Listas/LIstas/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LIstas.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/git/maui/MAUI_Listas/LIstas/CarrouselView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LIstas.CarrouselView.xaml
+build_metadata.AdditionalFiles.TargetPath = CarrouselView.xaml
+build_metadata.AdditionalFiles.RelativePath = CarrouselView.xaml
+
+[C:/git/maui/MAUI_Listas/LIstas/CollectionView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LIstas.CollectionView.xaml
+build_metadata.AdditionalFiles.TargetPath = CollectionView.xaml
+build_metadata.AdditionalFiles.RelativePath = CollectionView.xaml
+
+[C:/git/maui/MAUI_Listas/LIstas/ListView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LIstas.ListView.xaml
+build_metadata.AdditionalFiles.TargetPath = ListView.xaml
+build_metadata.AdditionalFiles.RelativePath = ListView.xaml
+
+[C:/git/maui/MAUI_Listas/LIstas/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LIstas.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/git/maui/MAUI_Listas/LIstas/PickerView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LIstas.PickerView.xaml
+build_metadata.AdditionalFiles.TargetPath = PickerView.xaml
+build_metadata.AdditionalFiles.RelativePath = PickerView.xaml
+
+[C:/git/maui/MAUI_Listas/LIstas/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LIstas.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/git/maui/MAUI_Listas/LIstas/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LIstas.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/git/maui/MAUI_Listas/LIstas/TableView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LIstas.TableView.xaml
+build_metadata.AdditionalFiles.TargetPath = TableView.xaml
+build_metadata.AdditionalFiles.RelativePath = TableView.xaml

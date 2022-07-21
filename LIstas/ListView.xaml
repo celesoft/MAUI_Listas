@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Listas.ListView"
+             xmlns:Models="clr-namespace:Listas.Models"
+             Title="LIstView">
+    <StackLayout>
+        <Label Text="ListView"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+
+        <ListView x:Name="lv" ItemSelected="lv_ItemSelected">
+            <ListView.ItemsSource>
+                <x:Array Type="{x:Type Models:Persona}">
+                    <Models:Persona Nombre="José" FechaNacimiento="07/19/1978" colorFavorito="LightGreen"></Models:Persona>
+                    <Models:Persona Nombre="Elena" FechaNacimiento="07/19/1980" colorFavorito="Red"></Models:Persona>
+                    <Models:Persona Nombre="Sandro" FechaNacimiento="07/19/2012" colorFavorito="Blue"></Models:Persona>
+                    <Models:Persona Nombre="Rubén" FechaNacimiento="07/19/2014" colorFavorito="Orange"></Models:Persona>
+                </x:Array>
+            </ListView.ItemsSource>
+
+
+            <ListView.ItemTemplate >
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="5"
+                                 Orientation="Horizontal"
+                                 Spacing="12">
+                            <BoxView Color="{Binding colorFavorito}" HeightRequest="30" WidthRequest="30"></BoxView>
+                            <StackLayout VerticalOptions="Center">
+                                <Label Text="{Binding Nombre}"></Label>
+                                <Label Text="{Binding FechaNacimiento, StringFormat='Fecha Nacimiento {0:d}'}"></Label>
+
+                            </StackLayout>
+                        </StackLayout>
+
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Button x:Name="familia" Text="Cargar Familia" Clicked="familia_Clicked"></Button>
+
+    </StackLayout>
+</ContentPage>
